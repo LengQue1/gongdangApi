@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9df681ff-ff4c-4fae-8c71-b9b295f5850b" name="super_api_test" url="http://192.168.1.15">
+        <fileTransfer host="192.168.1.15" port="22" rootFolder="/opt/web/sys_superman" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0deeefcc-77b3-41cc-877f-4ae419dff2bf" name="hdabc" url="http://111.230.155.192">
+        <fileTransfer host="111.230.155.192" port="22" rootFolder="/opt" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
